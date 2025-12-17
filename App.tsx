@@ -60,7 +60,7 @@ function App() {
               COMBO MÃE CONSCIENTE
             </span>
             <h1 className="text-4xl md:text-6xl font-serif font-bold text-stone-900 leading-tight">
-              Quebre o ciclo de <span className="text-brand-600">telas, birras e culpa</span> — e reconstrua a conexão com seu filho.
+              Quebre o ciclo de <span className="text-brand-600">telas, birras e culpa</span> e reconstrua a conexão com seu filho.
             </h1>
             <h2 className="text-xl md:text-2xl text-stone-600 leading-relaxed max-w-3xl mx-auto">
               Um sistema completo de 8 semanas para transformar sua casa do caos à conexão em apenas 8 semanas, sem gritos e sem permissividade.
