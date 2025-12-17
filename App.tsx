@@ -356,7 +356,7 @@ function App() {
           {/* Lifetime Plan */}
           <div className="bg-white p-8 rounded-2xl shadow-2xl border-2 border-brand-500 transform scale-105 relative z-10">
             <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-brand-600 text-white px-4 py-1 rounded-full text-sm font-bold shadow-lg">
-              MAIS ESCOLHIDO
+              MAIS VANTAGEM
             </div>
             <h3 className="text-xl font-bold text-brand-600 uppercase tracking-wide mb-2">Acesso Vitalício</h3>
             <p className="text-sm text-stone-500 mb-6">Uma única vez. Sem renovações.</p>
