@@ -27,12 +27,12 @@ function App() {
 
   return (
     <div className="font-sans text-stone-800 antialiased selection:bg-brand-200 selection:text-brand-900">
-      
+
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b border-stone-100 shadow-sm">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <div className="text-xl font-bold font-serif text-brand-600">Mãe Consciente</div>
-          
+
           <div className="hidden md:flex gap-6 items-center">
             <Button onClick={scrollToPricing} className="py-2 px-4 text-sm">Quero começar</Button>
           </div>
@@ -41,7 +41,7 @@ function App() {
             {isMenuOpen ? <X className="text-stone-600" /> : <Menu className="text-stone-600" />}
           </button>
         </div>
-        
+
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden bg-white border-t border-stone-100 p-4 flex flex-col gap-4 shadow-xl">
@@ -85,7 +85,7 @@ function App() {
       <Section className="bg-white">
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <h2 className="text-2xl md:text-3xl font-serif font-bold text-stone-800">
-            Você não grita porque quer. <br/>
+            Você não grita porque quer. <br />
             <span className="text-stone-500 text-xl md:text-2xl italic font-normal">Você não entrega telas porque é negligente.</span>
           </h2>
           <div className="space-y-6 text-lg text-stone-600 text-left md:text-center leading-relaxed">
@@ -93,7 +93,7 @@ function App() {
             <p className="font-medium text-brand-700">Se isso está acontecendo na sua casa, essa oferta é pra você.</p>
           </div>
         </div>
-        
+
         <div className="mt-16 grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <div className="bg-stone-50 p-8 rounded-2xl border border-stone-100">
             <h3 className="text-xl font-bold mb-4 flex items-center gap-2 text-stone-800">
@@ -117,7 +117,7 @@ function App() {
       {/* The Root Cause */}
       <Section dark className="text-center">
         <h2 className="text-3xl md:text-4xl font-serif font-bold text-stone-800 mb-8">
-          A verdade que ninguém te contou <br/>(e que muda tudo)
+          A verdade que ninguém te contou <br />(e que muda tudo)
         </h2>
         <div className="max-w-3xl mx-auto space-y-6 text-lg">
           <p>O problema não é o seu filho. E não é você.</p>
@@ -125,19 +125,19 @@ function App() {
             <h3 className="text-xl font-bold text-brand-700 mb-4 uppercase tracking-widest">Modo Sobrevivência Emocional</h3>
             <div className="grid sm:grid-cols-2 gap-6 text-left">
               <div className="flex items-start gap-3">
-                <div className="bg-brand-100 p-2 rounded-lg text-brand-600 mt-1"><AlertCircle size={20}/></div>
+                <div className="bg-brand-100 p-2 rounded-lg text-brand-600 mt-1"><AlertCircle size={20} /></div>
                 <p>A criança perde autorregulação</p>
               </div>
               <div className="flex items-start gap-3">
-                <div className="bg-brand-100 p-2 rounded-lg text-brand-600 mt-1"><AlertCircle size={20}/></div>
+                <div className="bg-brand-100 p-2 rounded-lg text-brand-600 mt-1"><AlertCircle size={20} /></div>
                 <p>A mãe perde clareza e vive no automático</p>
               </div>
               <div className="flex items-start gap-3">
-                <div className="bg-brand-100 p-2 rounded-lg text-brand-600 mt-1"><AlertCircle size={20}/></div>
+                <div className="bg-brand-100 p-2 rounded-lg text-brand-600 mt-1"><AlertCircle size={20} /></div>
                 <p>A conexão vira negociação</p>
               </div>
               <div className="flex items-start gap-3">
-                <div className="bg-brand-100 p-2 rounded-lg text-brand-600 mt-1"><AlertCircle size={20}/></div>
+                <div className="bg-brand-100 p-2 rounded-lg text-brand-600 mt-1"><AlertCircle size={20} /></div>
                 <p>A autoridade vira grito (mesmo sem querer)</p>
               </div>
             </div>
@@ -167,9 +167,9 @@ function App() {
             </div>
           ))}
         </div>
-        
+
         <div className="mt-16 text-center">
-          <h3 className="text-2xl font-bold mb-6">Apresento a você: <br/><span className="text-brand-600 text-4xl font-serif">O COMBO MÃE CONSCIENTE</span></h3>
+          <h3 className="text-2xl font-bold mb-6">Apresento a você: <br /><span className="text-brand-600 text-4xl font-serif">O COMBO MÃE CONSCIENTE</span></h3>
           <p className="text-lg max-w-2xl mx-auto mb-8">
             Um sistema completo de 8 semanas que te leva de onde você está hoje (presa no ciclo de culpa) para onde você quer estar: com paz, conexão e controle emocional.
           </p>
@@ -193,7 +193,7 @@ function App() {
             <p className="text-sm text-stone-500 mb-4 font-mono">Valor: R$ 197</p>
             <ul className="space-y-2 mb-4 flex-grow">
               {['Passo a passo da quebra de ciclo', 'Identifique uso, abuso ou dependência', '3 fases da desintoxicação neurológica', 'Scripts prontos pra birras'].map((i, k) => (
-                <li key={k} className="flex gap-2 text-sm text-stone-600"><Check size={16} className="text-green-500 min-w-[16px]"/> {i}</li>
+                <li key={k} className="flex gap-2 text-sm text-stone-600"><Check size={16} className="text-green-500 min-w-[16px]" /> {i}</li>
               ))}
             </ul>
             <div className="bg-stone-50 p-3 rounded-lg text-sm text-stone-700 italic border-l-4 border-brand-500">
@@ -207,21 +207,21 @@ function App() {
             <p className="text-sm text-stone-500 mb-4 font-mono">Valor: R$ 997</p>
             <ul className="space-y-2 mb-4 flex-grow">
               {['13 módulos + 100 vídeo-aulas', 'Base emocional sólida', 'Blindagem emocional da criança'].map((i, k) => (
-                <li key={k} className="flex gap-2 text-sm text-stone-600"><Check size={16} className="text-green-500 min-w-[16px]"/> {i}</li>
+                <li key={k} className="flex gap-2 text-sm text-stone-600"><Check size={16} className="text-green-500 min-w-[16px]" /> {i}</li>
               ))}
             </ul>
             <div className="bg-stone-50 p-3 rounded-lg text-sm text-stone-700 italic border-l-4 border-brand-500">
               Transformação: Você se torna a mãe que seu filho precisa em CADA fase.
             </div>
           </div>
-          
+
           {/* Card 3 */}
           <div className="bg-white p-6 rounded-xl shadow-sm border border-stone-100 flex flex-col">
             <h3 className="text-xl font-bold text-stone-900 mb-2">#3: Imersão Birras Sem Estresse</h3>
             <p className="text-sm text-stone-500 mb-4 font-mono">Valor: R$ 297</p>
             <ul className="space-y-2 mb-4 flex-grow">
               {['Desativar ciclo neurológico das birras', 'Scripts de co-regulação', 'Imersão de 4 semanas'].map((i, k) => (
-                <li key={k} className="flex gap-2 text-sm text-stone-600"><Check size={16} className="text-green-500 min-w-[16px]"/> {i}</li>
+                <li key={k} className="flex gap-2 text-sm text-stone-600"><Check size={16} className="text-green-500 min-w-[16px]" /> {i}</li>
               ))}
             </ul>
             <div className="bg-stone-50 p-3 rounded-lg text-sm text-stone-700 italic border-l-4 border-brand-500">
@@ -229,13 +229,13 @@ function App() {
             </div>
           </div>
 
-           {/* Card 4 */}
-           <div className="bg-white p-6 rounded-xl shadow-sm border border-stone-100 flex flex-col">
+          {/* Card 4 */}
+          <div className="bg-white p-6 rounded-xl shadow-sm border border-stone-100 flex flex-col">
             <h3 className="text-xl font-bold text-stone-900 mb-2">#4: Fórmula da Autoridade & Conexão</h3>
             <p className="text-sm text-stone-500 mb-4 font-mono">Valor: R$ 197</p>
             <ul className="space-y-2 mb-4 flex-grow">
               {['Estrutura de 3 passos para qualquer idade', 'Obediência sem gritos', 'CNV + Neurociência'].map((i, k) => (
-                <li key={k} className="flex gap-2 text-sm text-stone-600"><Check size={16} className="text-green-500 min-w-[16px]"/> {i}</li>
+                <li key={k} className="flex gap-2 text-sm text-stone-600"><Check size={16} className="text-green-500 min-w-[16px]" /> {i}</li>
               ))}
             </ul>
             <div className="bg-stone-50 p-3 rounded-lg text-sm text-stone-700 italic border-l-4 border-brand-500">
@@ -254,7 +254,7 @@ function App() {
               { title: "#10: Comunidade Mãe Consciente", val: "R$ 997/ano", desc: "Grupo exclusivo, áudios e apoio constante." },
             ].map((bonus, idx) => (
               <div key={idx} className="flex items-start gap-4 bg-white p-4 rounded-lg border border-stone-100">
-                <div className="bg-brand-50 p-2 rounded text-brand-500"><Gift size={20}/></div>
+                <div className="bg-brand-50 p-2 rounded text-brand-500"><Gift size={20} /></div>
                 <div>
                   <h4 className="font-bold text-stone-800">{bonus.title}</h4>
                   <p className="text-xs text-stone-400 mb-1">Valor: {bonus.val}</p>
@@ -272,43 +272,43 @@ function App() {
           <div className="space-y-3 text-left max-w-2xl mx-auto text-sm md:text-base mb-10 opacity-90">
             <div className="flex justify-between border-b border-stone-800 pb-2">
               <span>✅ Protocolo Menos Tela, Mais Conexão</span>
-              <span className="font-mono text-brand-400">R$ 197</span>
+              <span className="font-mono text-brand-400 whitespace-nowrap flex-shrink-0">R$ 197</span>
             </div>
             <div className="flex justify-between border-b border-stone-800 pb-2">
               <span>✅ Programa Pais Conscientes</span>
-              <span className="font-mono text-brand-400">R$ 997</span>
+              <span className="font-mono text-brand-400 whitespace-nowrap flex-shrink-0">R$ 997</span>
             </div>
             <div className="flex justify-between border-b border-stone-800 pb-2">
               <span>✅ Imersão Birras sem Estresse</span>
-              <span className="font-mono text-brand-400">R$ 297</span>
+              <span className="font-mono text-brand-400 whitespace-nowrap flex-shrink-0">R$ 297</span>
             </div>
             <div className="flex justify-between border-b border-stone-800 pb-2">
               <span>✅ Fórmula Autoridade & Conexão</span>
-              <span className="font-mono text-brand-400">R$ 197</span>
+              <span className="font-mono text-brand-400 whitespace-nowrap flex-shrink-0">R$ 197</span>
             </div>
             <div className="flex justify-between border-b border-stone-800 pb-2">
               <span>✅ Mini Curso Criança Protegida</span>
-              <span className="font-mono text-brand-400">R$ 97</span>
+              <span className="font-mono text-brand-400 whitespace-nowrap flex-shrink-0">R$ 97</span>
             </div>
             <div className="flex justify-between border-b border-stone-800 pb-2">
               <span>✅ Irmãos Sim, Rivais Não</span>
-              <span className="font-mono text-brand-400">R$ 97</span>
+              <span className="font-mono text-brand-400 whitespace-nowrap flex-shrink-0">R$ 97</span>
             </div>
             <div className="flex justify-between border-b border-stone-800 pb-2">
               <span>✅ Guia Separação Consciente</span>
-              <span className="font-mono text-brand-400">R$ 197</span>
+              <span className="font-mono text-brand-400 whitespace-nowrap flex-shrink-0">R$ 197</span>
             </div>
             <div className="flex justify-between border-b border-stone-800 pb-2">
               <span>✅ Workshop Destrave a Mãe</span>
-              <span className="font-mono text-brand-400">R$ 297</span>
+              <span className="font-mono text-brand-400 whitespace-nowrap flex-shrink-0">R$ 297</span>
             </div>
             <div className="flex justify-between border-b border-stone-800 pb-2">
               <span>✅ Checklist Rotina sem Gritos</span>
-              <span className="font-mono text-brand-400">R$ 197</span>
+              <span className="font-mono text-brand-400 whitespace-nowrap flex-shrink-0">R$ 197</span>
             </div>
             <div className="flex justify-between border-b border-stone-800 pb-2">
               <span>✅ Comunidade Mãe Consciente (12 meses)</span>
-              <span className="font-mono text-brand-400">R$ 997</span>
+              <span className="font-mono text-brand-400 whitespace-nowrap flex-shrink-0">R$ 997</span>
             </div>
           </div>
           <div className="pt-6">
@@ -327,7 +327,7 @@ function App() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto items-center">
-          
+
           {/* Annual Plan */}
           <div className="bg-white p-8 rounded-2xl shadow-lg border border-stone-100 transform transition hover:-translate-y-1 relative">
             <h3 className="text-xl font-bold text-stone-600 uppercase tracking-wide mb-2">Acesso Anual</h3>
@@ -340,9 +340,9 @@ function App() {
               <p className="text-stone-500 text-sm mt-1">ou R$ 597 à vista</p>
             </div>
             <ul className="space-y-3 mb-8">
-              <li className="flex gap-2 text-stone-600 text-sm"><Check size={18} className="text-brand-500"/> Todo o conteúdo gravado</li>
-              <li className="flex gap-2 text-stone-600 text-sm"><Check size={18} className="text-brand-500"/> Atualizações por 1 ano</li>
-              <li className="flex gap-2 text-stone-600 text-sm"><Check size={18} className="text-brand-500"/> Comunidade por 1 ano</li>
+              <li className="flex gap-2 text-stone-600 text-sm"><Check size={18} className="text-brand-500" /> Todo o conteúdo gravado</li>
+              <li className="flex gap-2 text-stone-600 text-sm"><Check size={18} className="text-brand-500" /> Atualizações por 1 ano</li>
+              <li className="flex gap-2 text-stone-600 text-sm"><Check size={18} className="text-brand-500" /> Comunidade por 1 ano</li>
             </ul>
             <Button variant="outline" fullWidth onClick={() => window.open('https://payfast.greenn.com.br/redirect/249442', '_blank')}>
               Quero Acesso Anual
@@ -364,16 +364,16 @@ function App() {
               <p className="text-stone-500 text-sm mt-1">ou R$ 897 à vista</p>
             </div>
             <ul className="space-y-3 mb-8">
-              <li className="flex gap-2 text-stone-800 font-medium"><Star size={18} className="text-yellow-400 fill-yellow-400"/> Acesso Vitalício a TUDO</li>
-              <li className="flex gap-2 text-stone-800"><Check size={18} className="text-brand-500"/> Sem prazos, sem pressa</li>
-              <li className="flex gap-2 text-stone-800"><Check size={18} className="text-brand-500"/> Atualizações futuras gratuitas</li>
-              <li className="flex gap-2 text-stone-800"><Check size={18} className="text-brand-500"/> Economia a longo prazo</li>
+              <li className="flex gap-2 text-stone-800 font-medium"><Star size={18} className="text-yellow-400 fill-yellow-400" /> Acesso Vitalício a TUDO</li>
+              <li className="flex gap-2 text-stone-800"><Check size={18} className="text-brand-500" /> Sem prazos, sem pressa</li>
+              <li className="flex gap-2 text-stone-800"><Check size={18} className="text-brand-500" /> Atualizações futuras gratuitas</li>
+              <li className="flex gap-2 text-stone-800"><Check size={18} className="text-brand-500" /> Economia a longo prazo</li>
             </ul>
             <Button variant="primary" fullWidth onClick={() => window.open('https://payfast.greenn.com.br/redirect/249443', '_blank')}>
               QUERO ACESSO VITALÍCIO
             </Button>
             <p className="text-center text-xs text-stone-400 mt-4 flex justify-center items-center gap-1">
-              <Lock size={12}/> Pagamento Seguro
+              <Lock size={12} /> Pagamento Seguro
             </p>
           </div>
 
@@ -382,9 +382,9 @@ function App() {
         {/* Guarantee */}
         <div className="mt-16 max-w-3xl mx-auto bg-white p-8 rounded-xl border border-stone-200 flex flex-col md:flex-row items-center gap-8 shadow-sm">
           <div className="flex-shrink-0">
-             <div className="w-24 h-24 bg-brand-100 rounded-full flex items-center justify-center text-brand-600">
-               <ShieldCheck size={48} />
-             </div>
+            <div className="w-24 h-24 bg-brand-100 rounded-full flex items-center justify-center text-brand-600">
+              <ShieldCheck size={48} />
+            </div>
           </div>
           <div className="text-center md:text-left">
             <h3 className="text-xl font-bold mb-2">Garantia Incondicional de 7 Dias</h3>
@@ -399,9 +399,9 @@ function App() {
       <Section id="autora">
         <div className="flex flex-col md:flex-row items-center gap-12 max-w-5xl mx-auto">
           <div className="md:w-2/5">
-            <img 
-              src="https://raw.githubusercontent.com/stackblitz/stackblitz-images/main/renata-machado.jpg" 
-              alt="Renata Machado" 
+            <img
+              src="https://raw.githubusercontent.com/stackblitz/stackblitz-images/main/renata-machado.jpg"
+              alt="Renata Machado"
               className="rounded-2xl shadow-2xl w-full object-cover aspect-[3/4] border-4 border-white"
             />
           </div>
@@ -467,8 +467,8 @@ function App() {
       {showStickyCTA && (
         <div className="fixed bottom-0 left-0 right-0 p-4 bg-white border-t border-stone-200 shadow-2xl md:hidden z-50 flex items-center justify-between animate-slide-up">
           <div className="text-sm">
-             <p className="font-bold text-brand-600">Apenas R$ 61,38/mês</p>
-             <p className="text-xs text-stone-500">Acesso anual</p>
+            <p className="font-bold text-brand-600">Apenas R$ 61,38/mês</p>
+            <p className="text-xs text-stone-500">Acesso anual</p>
           </div>
           <Button onClick={scrollToPricing} className="py-2 px-6 text-sm">
             Quero Agora
