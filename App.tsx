@@ -287,27 +287,27 @@ function App() {
               <span className="font-mono text-brand-400">R$ 197</span>
             </div>
             <div className="flex justify-between border-b border-stone-800 pb-2">
-              <span>✅ BÔNUS: Mini Curso Criança Protegida</span>
+              <span>✅ Mini Curso Criança Protegida</span>
               <span className="font-mono text-brand-400">R$ 97</span>
             </div>
             <div className="flex justify-between border-b border-stone-800 pb-2">
-              <span>✅ BÔNUS: Irmãos Sim, Rivais Não</span>
+              <span>✅ Irmãos Sim, Rivais Não</span>
               <span className="font-mono text-brand-400">R$ 97</span>
             </div>
             <div className="flex justify-between border-b border-stone-800 pb-2">
-              <span>✅ BÔNUS: Guia Separação Consciente</span>
+              <span>✅ Guia Separação Consciente</span>
               <span className="font-mono text-brand-400">R$ 197</span>
             </div>
             <div className="flex justify-between border-b border-stone-800 pb-2">
-              <span>✅ BÔNUS: Workshop Destrave a Mãe</span>
+              <span>✅ Workshop Destrave a Mãe</span>
               <span className="font-mono text-brand-400">R$ 297</span>
             </div>
             <div className="flex justify-between border-b border-stone-800 pb-2">
-              <span>✅ BÔNUS: Checklist Rotina sem Gritos</span>
+              <span>✅ Checklist Rotina sem Gritos</span>
               <span className="font-mono text-brand-400">R$ 197</span>
             </div>
             <div className="flex justify-between border-b border-stone-800 pb-2">
-              <span>✅ BÔNUS: Comunidade Mãe Consciente (12 meses)</span>
+              <span>✅ Comunidade Mãe Consciente (12 meses)</span>
               <span className="font-mono text-brand-400">R$ 997</span>
             </div>
           </div>
