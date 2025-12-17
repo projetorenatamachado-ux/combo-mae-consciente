@@ -480,6 +480,19 @@ function App() {
         </div>
       )}
 
+      {/* WhatsApp Floating Button */}
+      <a
+        href="https://wa.me/5518997386532?text=Quero%20tirar%20d%C3%BAvidas%20sobre%20o%20COMBO%20M%C3%83E%20CONSCIENTE..."
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-24 right-4 md:bottom-8 md:right-8 z-50 bg-[#25D366] text-white p-3 rounded-full shadow-2xl hover:bg-[#20bd5a] transition-all transform hover:scale-110 flex items-center justify-center"
+        aria-label="Falar no WhatsApp"
+      >
+        <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round" className="text-white">
+          <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+        </svg>
+      </a>
+
     </div>
   );
 }
