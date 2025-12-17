@@ -3,6 +3,7 @@ import { Check, Star, Heart, AlertCircle, ShieldCheck, Lock, ArrowRight, Menu, X
 import { Button } from './components/Button';
 import { Section } from './components/Section';
 import { AccordionItem } from './components/Accordion';
+import renataImage from './assets/imagem-renata.jpeg';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -400,7 +401,7 @@ function App() {
         <div className="flex flex-col md:flex-row items-center gap-12 max-w-5xl mx-auto">
           <div className="md:w-2/5">
             <img
-              src="https://raw.githubusercontent.com/stackblitz/stackblitz-images/main/renata-machado.jpg"
+              src={renataImage}
               alt="Renata Machado"
               className="rounded-2xl shadow-2xl w-full object-cover aspect-[3/4] border-4 border-white"
             />
