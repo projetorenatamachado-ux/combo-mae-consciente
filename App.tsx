@@ -345,7 +345,7 @@ function App() {
               <li className="flex gap-2 text-stone-600 text-sm"><Check size={18} className="text-brand-500" /> Atualizações por 1 ano</li>
               <li className="flex gap-2 text-stone-600 text-sm"><Check size={18} className="text-brand-500" /> Comunidade por 1 ano</li>
             </ul>
-            <Button variant="outline" fullWidth onClick={() => window.open('https://payfast.greenn.com.br/redirect/249442', '_blank')}>
+            <Button variant="outline" fullWidth onClick={() => window.location.href = 'https://payfast.greenn.com.br/redirect/249442'}>
               Quero Acesso Anual
             </Button>
           </div>
@@ -370,7 +370,7 @@ function App() {
               <li className="flex gap-2 text-stone-800"><Check size={18} className="text-brand-500" /> Atualizações futuras gratuitas</li>
               <li className="flex gap-2 text-stone-800"><Check size={18} className="text-brand-500" /> Economia a longo prazo</li>
             </ul>
-            <Button variant="primary" fullWidth onClick={() => window.open('https://payfast.greenn.com.br/redirect/249443', '_blank')}>
+            <Button variant="primary" fullWidth onClick={() => window.location.href = 'https://payfast.greenn.com.br/redirect/249443'}>
               QUERO ACESSO VITALÍCIO
             </Button>
             <p className="text-center text-xs text-stone-400 mt-4 flex justify-center items-center gap-1">
