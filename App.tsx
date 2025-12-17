@@ -245,6 +245,9 @@ function App() {
           </div>
 
           {/* Quick List for Smaller Bonuses */}
+          <div className="md:col-span-2 text-center mt-8 mb-4">
+            <h3 className="text-2xl font-serif font-bold text-stone-800">E mais Alguns Bônus Especiais</h3>
+          </div>
           <div className="md:col-span-2 grid gap-4 md:grid-cols-2 mt-4">
             {[
               { title: "#5: Mini Curso Criança Protegida", val: "R$ 97", desc: "Como blindar seu filho de abusos e riscos invisíveis." },
