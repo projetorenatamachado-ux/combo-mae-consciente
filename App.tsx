@@ -65,6 +65,19 @@ function App() {
             <h2 className="text-xl md:text-2xl text-stone-600 leading-relaxed max-w-3xl mx-auto">
               Um sistema completo de 8 semanas para transformar sua casa do caos à conexão em apenas 8 semanas, sem gritos e sem permissividade.
             </h2>
+
+            <div className="w-full max-w-3xl mx-auto aspect-video rounded-xl overflow-hidden shadow-2xl my-8 border-4 border-white">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/hNZwfBPNnhA"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
+            </div>
+
             <div className="pt-8 flex flex-col items-center gap-6">
               <Button onClick={scrollToPricing} className="w-full md:w-auto px-12 py-5 text-xl shadow-brand-300 shadow-2xl">
                 Sim, eu quero quebrar esse ciclo
