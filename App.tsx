@@ -63,7 +63,7 @@ function App() {
               Quebre o ciclo de <span className="text-brand-600">telas, birras e culpa</span> e reconstrua a conexão com seu filho.
             </h1>
             <h2 className="text-xl md:text-2xl text-stone-600 leading-relaxed max-w-3xl mx-auto">
-              Um sistema completo de 8 semanas para transformar sua casa do caos à conexão em apenas 8 semanas, sem gritos e sem permissividade.
+              Em 8 semanas, saia do caos diário e construa uma casa com mais cooperação, limites e conexão, sem gritar e sem perder autoridade.
             </h2>
 
             <div className="w-full max-w-3xl mx-auto aspect-video rounded-xl overflow-hidden shadow-2xl my-8 border-4 border-white">
